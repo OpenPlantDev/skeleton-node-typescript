@@ -1,3 +1,7 @@
 
+const sayHelloTo = (to: string): void => {
+    // tslint:disable-next-line:no-console
+    console.log(`Hello ${to}!!!`);
+};
 
-console.log("Hello World!!!");
+sayHelloTo("Everyone");

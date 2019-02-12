@@ -61,6 +61,8 @@
     "exclude": [
       ".git",
       "node_modules",
-      "**/*.spec.ts"
+      "**/*.spec.ts",
+      "test",
+      "out"
     ]
   }

@@ -4,7 +4,7 @@
   "description": "Skeleton for basic node app with Typescript",
   "main": "index.js",
   "scripts": {
-    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
     "build": "tsc",
     "dev-start": "npm-run-all build start",
     "dev": "nodemon --exec npm run dev-start",
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@bentley/build-tools": "^0.187.0",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.21",
